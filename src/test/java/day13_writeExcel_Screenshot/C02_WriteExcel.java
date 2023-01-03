@@ -27,7 +27,7 @@ public class C02_WriteExcel {
         workbook.write(fos);// kod calıştırmadan önce xlsx dosyasının kapalı olması gerekiyor
 
 
-        workbook.close();
+        workbook.close();// rem kullanımını azaltmak için yapıyoruz
         fis.close();
         fos.close();
     }
